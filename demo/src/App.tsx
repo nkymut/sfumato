@@ -4,7 +4,7 @@ import Claviature from './Claviature';
 import useMidiInput from './useMidiInput';
 import useWebMidi from './useWebMidi';
 
-const fonts = ['Vintage Dreams Waves v2', 'Donkey Kong Country 2014', 'Earthbound_NEW', 'SuperMarioWorld'];
+const fonts = ['FPD','FPD98','Vintage Dreams Waves v2', 'Donkey Kong Country 2014', 'Earthbound_NEW', 'SuperMarioWorld'];
 
 const ctx = typeof AudioParam !== 'undefined' ? new AudioContext() : null;
 
